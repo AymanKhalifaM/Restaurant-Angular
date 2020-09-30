@@ -1,0 +1,25 @@
+<section id="features">
+  <div class="container">
+    <h2>Get food fast — not fast food.</h2>
+
+    <p class="desc">
+      Hello, we’re Omnifood, your new premium food delivery service. We know
+      you’re always busy. No time for cooking. So let us take care of that,
+      we’re really good at it, we promise!
+    </p>
+
+    <div class="row " [ngClass]="{'rotate-in-center':featuresNew}">
+      <div
+        class="col-lg-3 col-md-4 col-sm-6 box"
+        *ngFor="let item of descIconAndHeadLine"
+      >
+        <fa-icon [icon]="item.icon"></fa-icon>
+        <h3>{{ item.headLine }}</h3>
+        <p>{{ item.paragraph }}</p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+<app-meals [featuresMeals]="featuresNew"></app-meals>
+

@@ -1,0 +1,8 @@
+<section id="meals">
+  <div class="row " [ngClass]="{'flip-in-hor-bottom':featuresMeals}">
+    <div class="col-3 meal " *ngFor="let image of imageSrc">
+      <img [src]="image" alt="" />
+    </div>
+  </div>
+</section>
+

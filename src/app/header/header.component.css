@@ -1,0 +1,35 @@
+header {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(https://firebasestorage.googleapis.com/v0/b/looplap-8d5e7.appspot.com/o/rest%2Fhero.jpg?alt=media&token=d169595c-65ea-413d-87af-089f2bfaf1aa);
+  background-position: center;
+  background-size: cover;
+}
+.headerLine {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+h1 {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  font-size: 180%;
+  text-transform: uppercase;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.headerButton {
+  display: inline;
+  border: solid 1px #e67e22;
+  padding: 10px 30px;
+  margin-right: 20px;
+  color: #e67e22;
+  text-decoration: none;
+  border-radius: 15px;
+}
+.headerButton:hover {
+  color: #fff;
+  background-color: #e67e22;
+}

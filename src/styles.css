@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    font-family: 'Lato';
+    color: #555;
+}
+h2{
+    text-align: center; margin-bottom: 20px;
+    font-size: 150%; font-weight: bold;
+    letter-spacing: 3px; word-spacing: 3px;
+    text-transform: uppercase;
+}
+
+h2::after{
+    content: ""; display: block;
+    width: 100px; height: 3px;
+    background-color: #e67e22;
+   margin: 10px auto;
+}
+section{
+    padding: 40px 0px;
+}

@@ -1,0 +1,21 @@
+.step-box{
+  margin-top: 30px;
+}
+.step-box:first-child{
+  text-align: right; padding-right: 3%;
+}
+.step-box:last-child{
+  text-align: left; padding-left: 3%;
+  margin-top: 70px;
+}
+
+.step-box img{ width: 40%; }
+.step{
+  margin-bottom: 50px; display: flex;
+}
+.step div{
+  width: 50px; height: 50px; 
+  border: solid #e67e22 2px;
+  border-radius: 50%; text-align: center;
+  padding: 13px; margin-right: 10px;
+}
