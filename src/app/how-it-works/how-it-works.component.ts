@@ -15,4 +15,5 @@ export class HowItWorksComponent  {
     andriodImg="https://firebasestorage.googleapis.com/v0/b/looplap-8d5e7.appspot.com/o/rest%2Fdownload-app-android.png?alt=media&token=61820461-6b40-4bde-aef0-095147a193c9"
   mobileImage = "https://firebasestorage.googleapis.com/v0/b/looplap-8d5e7.appspot.com/o/rest%2Fapp-iPhone.png?alt=media&token=1a765892-9e19-43f6-abdd-c5462404e00b"
 
+  
 }

@@ -1,0 +1,35 @@
+footer{
+    padding: 40px 0px; background-color: #333;
+}
+
+footer p{
+    color: #ccc; text-align: center; margin-top: 30px;
+}
+.footer-nav{
+    float: left;  list-style: none;
+}
+.footer-nav li{
+   display: inline-block; margin-left: 10px;
+}
+.footer-nav li a{
+   color: #888; text-decoration: none;
+}
+.footer-nav li a:hover{
+   text-decoration: underline; color: #fff;
+}
+.social-nav{
+    float: right;  list-style: none;
+}
+.social-nav li{
+   display: inline-block; margin-left: 20px;
+}
+.social-nav li a{
+   color: #888; text-decoration: none;
+   font-size: 24px;
+}
+.social-nav li a:hover{
+    color: #fff;
+}
+.social-nav .fa-facebook:hover{
+    color: #3b5998;
+}

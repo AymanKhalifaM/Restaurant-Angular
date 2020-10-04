@@ -13,5 +13,8 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit() {
   }
+  toWorks(){
+    document.getElementById('works').scrollIntoView({behavior:"smooth",block:"start"})
+  }
 
 }

@@ -1,0 +1,11 @@
+#cieties img{
+    width: 100%; margin-bottom: 10px;
+}
+
+.city-details{
+    margin-bottom: 10px; margin-top: 10px;
+}
+.city-details i{
+    color: #e67e22; margin-right: 10px;
+    float: left;
+}

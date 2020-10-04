@@ -1,0 +1,26 @@
+.customers{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .7)), url(https://firebasestorage.googleapis.com/v0/b/looplap-8d5e7.appspot.com/o/rest%2Fback-customers.jpg?alt=media&token=d459e537-996c-49cd-936e-87d018e54194);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+blockquote{
+    padding: 2%; font-style: italic;
+    line-height: 150%;
+    margin-top: 40px;
+    position: relative;
+}
+blockquote::before{
+    content: "\201C"; display: block;
+    font-size: 500%; 
+    position: absolute;top: -5px; left: -20px;
+}
+
+cite {
+    display: block; margin-top: 20px;
+}
+cite img {
+   height: 45px; border-radius: 50%; margin-right: 10px;
+   vertical-align: middle;
+}

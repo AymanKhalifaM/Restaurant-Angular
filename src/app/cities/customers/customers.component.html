@@ -1,0 +1,21 @@
+<section class="customers">
+  <div class="container">
+    <h2>Our customers can't live without us</h2>
+
+    <div class="row">
+      <div class="col-md-4" *ngFor="let customer of customers">
+        <blockquote>
+         {{ customer.text }}
+          <cite>
+            <img [src]="customer.img" alt="" />
+            {{ customer.name }}
+          </cite>
+        </blockquote>
+      </div>
+  
+    </div>
+
+  </div>
+ 
+</section>
+

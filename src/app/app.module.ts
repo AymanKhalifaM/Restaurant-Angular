@@ -10,7 +10,10 @@ import { DescriptionComponent } from './description/description.component';
 import { MealsComponent } from './description/meals/meals.component';
 import { HowItWorksComponent } from './how-it-works/how-it-works.component';
 import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.component';
-
+import { CitiesComponent } from './cities/cities.component';
+import { CustomersComponent } from './cities/customers/customers.component';
+import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -22,12 +25,16 @@ import { LoadingSpinnerComponent } from './loading-spinner/loading-spinner.compo
     MealsComponent,
     HowItWorksComponent,
     LoadingSpinnerComponent,
+    CitiesComponent,
+    CustomersComponent,
+    ContactComponent,
+    FooterComponent,
     
     
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule,
+    FontAwesomeModule
     
   ],
   providers: [],
