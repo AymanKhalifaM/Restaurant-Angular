@@ -16,6 +16,6 @@ export class AppComponent implements OnInit {
 ngOnInit(){
   setTimeout(() => {
     this.spinner =false
-  }, 1000);
+  }, 2000);
 }  
 }

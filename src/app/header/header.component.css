@@ -1,7 +1,7 @@
 header {
   height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(https://firebasestorage.googleapis.com/v0/b/looplap-8d5e7.appspot.com/o/rest%2Fhero.jpg?alt=media&token=d169595c-65ea-413d-87af-089f2bfaf1aa);
+  url(https://firebasestorage.googleapis.com/v0/b/looplap-8d5e7.appspot.com/o/rest%2Fhero.jpg?alt=media&token=d169595c-65ea-413d-87af-089f2bfaf1aa);
   background-position: center;
   background-size: cover;
 }

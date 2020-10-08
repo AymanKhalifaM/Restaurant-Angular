@@ -14,6 +14,7 @@ import { CitiesComponent } from './cities/cities.component';
 import { CustomersComponent } from './cities/customers/customers.component';
 import { ContactComponent } from './contact/contact.component';
 import { FooterComponent } from './footer/footer.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -34,7 +35,8 @@ import { FooterComponent } from './footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    BrowserAnimationsModule
     
   ],
   providers: [],
