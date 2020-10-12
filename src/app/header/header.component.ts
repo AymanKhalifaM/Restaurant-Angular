@@ -1,4 +1,4 @@
-import { animate, state, style, transition, trigger } from '@angular/animations';
+import { headerTrigger } from './animations';
 import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
@@ -6,17 +6,7 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css'],
   animations:[
-    trigger('backImg',[
-      state('unselected',style({
-        transform: 'scale(1) translateY(0)',
-        transformOrigin: '50% 16%'
-      })),
-      state('selected',style({
-        transform: 'scale(1.2) translateY(-15px)',
-        transformOrigin: 'top'
-      })),
-      transition('unselected <=> selected',animate('3s ease-out'))
-    ])
+   headerTrigger
   ]
 })
 export class HeaderComponent implements OnInit {
