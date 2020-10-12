@@ -22,6 +22,6 @@ export class HeaderComponent implements OnInit {
   }
   featuresClickedFn(){
     this.featuresClicked.emit(true);
-    
+
   }
 }

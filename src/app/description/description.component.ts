@@ -1,14 +1,16 @@
 import { DiscModel } from './desc.model';
 import { Component, Input, OnInit } from '@angular/core';
 import { faCarrot, faClock, faInfinity, faShoppingBasket } from '@fortawesome/free-solid-svg-icons';
+import {descTrigger} from './animations';
 
 @Component({
   selector: 'app-description',
   templateUrl: './description.component.html',
-  styleUrls: ['./description.component.css']
+  styleUrls: ['./description.component.css'],
+  animations:[descTrigger]
 })
 export class DescriptionComponent implements OnInit {
-  
+
   @Input() featuresNew  ;
 
   descIconAndHeadLine : DiscModel[] =[

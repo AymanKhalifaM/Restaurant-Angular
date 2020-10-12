@@ -1,9 +1,11 @@
 import { Component, Input } from '@angular/core';
+import {descMealsTrigger, descTrigger} from '../animations';
 
 @Component({
   selector: 'app-meals',
   templateUrl: './meals.component.html',
-  styleUrls: ['./meals.component.css']
+  styleUrls: ['./meals.component.css'],
+  animations:[descTrigger,descMealsTrigger]
 })
 export class MealsComponent  {
 

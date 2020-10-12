@@ -19,17 +19,3 @@
 .box p {
   line-height: 150%;
 }
-
-.rotate-in-center {
-  animation: rotate-in-center 5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-@keyframes rotate-in-center {
-  0% {
-    transform: rotate(-360deg);
-    opacity: 0;
-  }
-  100% {
-    transform: rotate(0);
-    opacity: 1;
-  }
-}

@@ -1,5 +1,5 @@
 <section id="meals">
-  <div class="row " [ngClass]="{'flip-in-hor-bottom':featuresMeals}">
+  <div class="row "  [@descMealsState]="featuresMeals ? 'moved' : 'deafult'">
     <div class="col-3 meal " *ngFor="let image of imageSrc">
       <img [src]="image" alt="" />
     </div>

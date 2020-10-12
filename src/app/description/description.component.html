@@ -8,7 +8,7 @@
       we’re really good at it, we promise!
     </p>
 
-    <div class="row " [ngClass]="{'rotate-in-center':featuresNew}">
+    <div class="row " [@descState]="featuresNew ? 'moved' :'deafult' ">
       <div
         class="col-lg-3 col-md-4 col-sm-6 box"
         *ngFor="let item of descIconAndHeadLine"
@@ -17,7 +17,7 @@
         <h3>{{ item.headLine }}</h3>
         <p>{{ item.paragraph }}</p>
       </div>
-      
+
     </div>
   </div>
 </section>

@@ -17,5 +17,5 @@ ngOnInit(){
   setTimeout(() => {
     this.spinner =false
   }, 2000);
-}  
+}
 }
