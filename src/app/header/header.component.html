@@ -1,11 +1,11 @@
-<header id="home" [@backImg]="backImg">
+<header id="home" [@backImg]="backImg" col-sm-8>
   <app-navbar></app-navbar>
-  <div class="headerLine col-sm-8">
+  <div class="headerLine">
     <h1>
       Goodbye junk food. <br />
       Hello super healthy meals.
     </h1>
-    <a href="#" class="headerButton col-sm-3"> I’m hungry </a>
-    <a href="#features"  class="headerButton col-sm-6" (click)="featuresClickedFn()"> Show me more </a>
+    
+    <a href="#features"  class="headerButton" (click)="featuresClickedFn()"> more </a>
   </div>
 </header>
